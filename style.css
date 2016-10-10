@@ -1,0 +1,526 @@
+@font-face { font-family: 'Mario'; src: url('fonts/mario.ttf'); }
+@font-face { font-family: 'Balls'; src: url('fonts/balls.ttf'); }
+
+
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+
+body {
+    font-family: "Trebuchet MS";
+    background-color: #42b3f4;
+}
+#index {
+  background-image: url('https://images5.alphacoders.com/490/490259.jpg');
+  background-size: cover;
+}
+#game-page {
+  background-color: tomato;
+}
+#rules-page {
+  background-color: pink;
+}
+
+.image-list {
+  list-style-type: none;
+}
+.image-list li {
+  padding: 15px 0;
+
+}
+ #center-section {
+   margin: auto;
+ }
+.center {
+  margin: auto 20%;
+}
+
+input {
+  width: 100px;
+  font-size: 26px;
+  font-family: 'Mario';
+  text-align: center;
+  border: none;
+}
+
+#namesize {
+  font-size: 10px;
+}
+
+#playersize {
+  font-size: 22px;
+  font-family: 'Mario';
+}
+
+#labelsize {
+  font-family: 'Mario';
+  font-size: 16px;
+  color: black;
+}
+
+#counter {
+  margin: auto;
+}
+
+#turncounter {
+  font-family: 'Mario';
+}
+
+#roll-green {
+  height: 0px;
+  width: 0px;
+  display: none;
+
+}
+
+#green-result {
+  font-family: 'Mario';
+  color: white;
+  font-size: 120px;
+  background-image: url('images/block2.png');
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+#green-table {
+}
+
+/*#select-ffa {
+  background: #ccc;
+}*/
+
+/*#free tr {
+  background-color: #ccc;
+  display: none;
+}*/
+
+/*#always {
+  display: block;
+}*/
+
+.free {
+  margin: auto;
+}
+.free td {
+  width: 420px;
+}
+.twov {
+  margin: auto;
+}
+.twov td {
+  width: 420px;
+}
+
+.auto {
+  margin: auto;
+}
+
+.auto th {
+  width: 420px;
+}
+.candy-head th {
+  width: 500px;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 56px;
+    color: white;
+    margin: 20px auto;
+    font-family: 'Mario';
+}
+
+h2 {
+    text-align: center;
+    font-size: 52px;
+    color: white;
+    font-family: 'Mario';
+    padding-bottom: 40px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Mario';
+}
+
+#roll {
+    background-color: white;
+    color: black;
+    height: 60px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+#counterbutton {
+    background-color: white;
+    color: black;
+    height: 70px;
+    width: 250px;
+    border-radius: 20px;
+    font-size: 22px;
+    font-family: 'Mario';
+}
+
+#green {
+    background-color: #80db76;
+    color: white;
+    height: 70px;
+    width: 250px;
+    border-radius: 20px;
+    font-size: 28px;
+    font-family: 'Mario';
+}
+
+#mini {
+    background-color: tomato;
+    color: white;
+    height: 70px;
+    width: 250px;
+    border-radius: 20px;
+    font-size: 22px;
+    font-family: 'Mario';
+}
+
+#rules {
+    background-color: pink;
+    color: black;
+    height: 70px;
+    width: 250px;
+    border-radius: 20px;
+    font-size: 28px;
+    font-family: 'Mario';
+}
+
+#candy {
+    background-color: #9188f7;
+    color: white;
+    height: 70px;
+    width: 250px;
+    border-radius: 20px;
+    font-size: 28px;
+    font-family: 'Mario';
+}
+
+#casino {
+    background-color: #ce5475;
+    color: white;
+    height: 70px;
+    width: 250px;
+    border-radius: 20px;
+    font-size: 28px;
+    font-family: 'Mario';
+}
+
+#casino-page {
+  background-color: #ce5475;
+  background-position: center;
+  background-repeat: repeat-x;
+}
+
+
+
+.game-list {
+    float: left;
+    margin: 0 50px;
+    line-height: 25px;
+}
+
+#candy-list {
+    float: left;
+    margin: 0 50px;
+    line-height: 25px;
+}
+
+#roll-result {
+    font-color: white;
+    font-size: 50px;
+    display: inline;
+}
+
+#candy-table, th, td {
+    border: outset;
+    background-color: white;
+    text-align: center;
+
+}
+
+#candy-table {
+    float: left;
+}
+
+#red-candy {
+    background-color: #db4646;
+    padding: 2px 20px;
+}
+
+#yellow-candy {
+    background-color: #f9ee4f;
+    padding: 2px 20px;
+}
+
+#green-candy {
+    background-color: #4dd62f;
+    padding: 2px 20px;
+}
+
+#white-candy {
+    background-color: white;
+    padding: 2px 20px;
+}
+
+#black-candy {
+    background-color: #232323;
+    padding: 2px 20px;
+    color: white;
+}
+
+#blue-candy {
+    background-color: #3e66dd;
+    padding: 2px 20px;
+    color: white;
+}
+
+th {
+  background-color: #d1d3d1;
+}
+th, td {
+    padding: 3px 12px;
+    font-size: 26px;
+}
+
+.rules {
+    float: left;
+    padding-left: 30px;
+}
+
+.div {
+    margin-right: 50px;
+    float: left;
+}
+
+#ruleDescrip {
+    margin-left: 50px;
+    max-width: 350px;
+    border: 2px inset;
+    padding: 15px;
+    background-color: white;
+    margin: 40px;
+}
+
+h4 {
+    font-size: 26px;
+    text-align: center;
+    background-color: pink;
+}
+
+#green-page {
+  background-color: #6aed65;
+}
+
+#toad {
+  margin-left: 50px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Mario';
+}
+
+#candy-page {
+  background-color: #9188f7;
+}
+
+#choose-candy {
+  background-color: white;
+  padding: 15px 10px;
+  border-radius: 15px 15px 15px 0;
+}
+
+#left {
+  padding-left: 100px;
+}
+
+/*#star {
+  margin: 30%;
+}*/
+
+#game-select {
+
+}
+
+.game-button {
+  width: 100px;
+  height: 50px;
+}
+
+
+#blue {
+  background-color: #3e66dd;
+}
+#red {
+  background-color: #db4646;
+}
+#greentd {
+  background-color: #4dd62f;
+}
+#darkgreen {
+  background-color: #397c3b;
+}
+
+#rainbow {
+    background-image: url(images/rainbow.jpg);
+    background-size: cover;
+}
+
+#black {
+  background-color: #232323;
+}
+
+#centerplus {
+  position: absolute;
+  width: 800px;
+  z-index: 15;
+  top: 40%;
+  left: 50%;
+  margin: -100px 0 0 -320px;
+}
+
+#button-text {
+  font-size: 24px;
+}
+#candy-results {
+  margin: 0;
+  font-size: 70px;
+}
+
+.yahtzeeWin {
+  position: fixed;
+  float: right;
+
+}
+
+.stats  {
+  margin: 10px auto 30px auto;
+
+}
+
+.stats td {
+  font-family: 'Balls';
+  font-size: 50px;
+  color: #66e8d8;
+  background-color: #141414;
+  border: 4px inset;
+
+
+}
+
+.yahtzee {
+  margin: auto;
+
+}
+
+
+.yahtzee td {
+  width: 200px;
+  height: 150px;
+  color: red;
+  border: 10px inset;
+  background: linear-gradient(gray, white, gray);
+  /*border-top: 5px solid black;
+  border-bottom: 5px solid black;*/
+
+}
+
+.slot-machine {
+  border: 10px outset;
+  float: left;
+  width: 900px;
+  height: 700px;
+  margin: auto;
+  background-color: #4b4e4f;
+  background-image: url(images/yoshiback.png);
+  background-position: top;
+  background-size: cover;
+  box-shadow: 10px 10px 10px black;
+
+
+}
+
+.spin {
+  font-family: 'Mario';
+  font-size: 60px;
+
+
+}
+
+.spinbutton {
+  background-color: #d84b4b;
+  height: 140px;
+  width: 500px;
+  margin: 0px 200px;
+  border: 5px outset;
+  font-size: 24px;
+  font-family: 'Mario';
+}
+
+#spinbuttonbox {
+  margin-left: 450px;
+  margin-right: 400px;
+}
+
+#reset {
+  background-color: #dbc72e;
+  height: 75px;
+  width: 150px;
+  float: right;
+  border: 5px outset;
+  margin-top: 15px;
+  margin-right: 15px;
+  font-family: 'Mario';
+  font-size: 13px;
+}
+
+.siren {
+  float: left;
+  margin-left: 500px;
+}
+
+.everything {
+  margin: auto;
+}
+
+/*#floatimg {
+  float: left;
+  margin-left: 300px;
+  margin-right: 50px;
+
+}*/
+
+.slotprizes {
+  float: left;
+
+  border: 2px solid white;
+}
+.slotprizes td {
+  background-color: tomato;
+  font-family: 'Mario';
+  font-size: 15px;
+  color: white;
+}
+.slotprizes img {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.yoshiwin {
+  float: left;
+  margin-left: 300px;
+  margin-right: 50px;
+}

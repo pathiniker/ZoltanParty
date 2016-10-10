@@ -1,0 +1,144 @@
+Build:--------------------------------------------------------
+*Board: blank gameboard
+*Spaces: stencil circles
+*Pawns: Nintendo characters
+*Dice: bicycle dice
+*Coins: bottle caps
+*Candy: assorted game pawns
+*Space tally card: notebook paper
+
+Notes:--------------------------------------------------------
+Keep tally card to track number of spaces landed on.
+*Green space rolls:
+[1] Go forward 4 spaces
+[2] Go backward 4 spaces
+[3] +2 coins
+[4] -2 coins
+[5] Jump to star
+[6] Jump to next green space
+
+*Candy:
+	Roll dice 3 times to decide which to choose from. Roll repeats, too bad.
+[1]Red (3 coins)...Jump to another player (choice)
+[2]Yellow (3 coins)...Swap places with another player (dice)
+[3]Green (4 coins)...Battle first player passed (1v1 mini-game)
+	-Challenger makes 1:1 bet.
+[4]White (2 coins)...Steal 2 coins from each player passed
+[5]Black (3 coins)...Roll 3 dice
+[6]Blue (5 coins)...Change location of star
+
+*Bonus spaces:
+{Coin bank}: roll 3 dice 3 times.
+	3 of a kind =  5 coins
+	Straight = 3 coins
+	Nothing = -1 coins
+{Lakitu}: Flies to other post for 2 coins
+
+Rules:--------------------------------------------------------
+	[Guide]--------------------
+Play 15 turns.
+	[Spaces]
+*Blue space: +1 chip
+*Red space: -1 chip
+*Green space: roll a dice
+
+Star costs 6 chips
+Begin with 3 chips.
+
+
+	[Rules]------------------
+{Playable characters}
+	Mario
+	Luigi
+	Peach
+	Yoshi
+	Daisy
+
+
+
+Players roll 2 dice to determine order of play.
+
+Roll 2 dice per turn.
+
+
+Candy must be used at beginning of turn.
+
+At end of each round, roll 1 dice to determine mini game.
+Odds = FFA.
+Evens = 2v2. Roll determines teams:
+	2 [p1/p2 | p3/p4]
+	4 [p1/p3 | p2/p4]
+	6 [p1/p4 | p2/p3]
+
+Roll again to determine mini game.
+
+
+
+
+	[Mini-games]-----------------
+Roll (1) dice to determine mini-game type.
+	*odds (1,3,5) FFA
+	*evens (2,4,6) 2v2
+Winning a mini-game earns 3 chips.
+
+
+	[End]------------------------
+Roll (1) dice 3 times to determine bonus stars.
+*Bonus stars:
+{1} Most red spaces
+{2} Most green spaces
+{3} Most mini-game wins
+{4} Most chips at end
+{5} Least chips at end
+{6} Most Bowser spaces
+
+
+
+
+
+Mini-Games:---------------------------------------------------
+
+
+-----2v2-----
+	[1] Rocket League (Steam)
+[2] Mario Power Tennis (GameCube)
+	[3] NBA Street Vol. 2 (GameCube)
+[4] Super Smash Bros Melee (GameCube)
+	[5] NFL Blitz (N64)
+	[6] 007 Nightfire (GameCube)
+	[7] NHL Hitz 2003 (GameCube)
+	[8] Mario Superstar Baseball (GameCube) {Homerun Derby, total}
+	[9] RRRDD (Gamecube)
+	[10] Rocket League (Steam)
+	[11] Super Mario Strikers (GameCube)
+	[12] Super Smash Bros Melee (GameCube)
+
+
+-----FFA-----
+	[1] Mario Kart 64 (N64)
+	[2] F-Zero GX (GameCube)
+	[3] Super Smash Bros 64 (N64)
+[4] 007 Nightfire (GameCube)
+	[5] Bomberman Generation (GameCube)
+	[6] RRRDD (GameCube)
+	[7] Super Monkey Ball 2 (GameCube)
+	[8] Mario Golf (N64)
+[9] Kirby Air Ride (GameCube)
+	[10] Mario Kart Double Dash (GameCube)
+	[11] RRRDD (Steam)
+	[12] Medal of Honor: European Assault (GameCube)
+
+
+-----Battle-----
+[1] Rocket League (Xbox)
+[2] Mario Power Tennis (GameCube)
+[3] F-Zero GX (GameCube)
+[4] NBA Street Vol. 2 (GameCube)
+[5] Tony Hawk's Underground (GameCube)
+[6] Super Smash Bros 64 (N64)
+[7] Simpson's Road Rage (GameCube)
+[8] Cruis'n USA (N64)
+[9] Super Monkey Ball 2 (GameCube)
+[10] Mortal Kombat Deception (N64)
+[11] Rocket League (Xbox)
+[12] Mario Superstar Baseball (GameCube) {Homerun Derby}

@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="50 Cent - Candy Shop ft_data" version="1.3.0" audacityversion="2.1.2" sel0="30.4527969003" sel1="30.4527969003" vpos="0" h="0.0000000000" zoom="6.1406510743" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="major_brand" value="mp42"/>
+		<tag name="Encoding time" value="2014-04-26 09:13:22"/>
+		<tag name="Software" value="Lavf53.32.100"/>
+		<tag name="compatible_brands" value="isommp42"/>
+		<tag name="minor_version" value="0"/>
+	</tags>
+	<wavetrack name="50 Cent - Candy Shop ft. Olivia" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1342968">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000342.au" len="235282" min="-0.47629" max="0.509484" rms="0.101871"/>
+				</waveblock>
+				<waveblock start="235282">
+					<simpleblockfile filename="e0000a58.au" len="262144" min="-0.588467" max="0.561147" rms="0.106439"/>
+				</waveblock>
+				<waveblock start="497426">
+					<simpleblockfile filename="e00006cf.au" len="262144" min="-0.552879" max="0.544847" rms="0.108938"/>
+				</waveblock>
+				<waveblock start="759570">
+					<simpleblockfile filename="e0000d28.au" len="262144" min="-0.601766" max="0.532825" rms="0.113688"/>
+				</waveblock>
+				<waveblock start="1021714">
+					<simpleblockfile filename="e0000c07.au" len="160627" min="-0.502875" max="0.511427" rms="0.095921"/>
+				</waveblock>
+				<waveblock start="1182341">
+					<simpleblockfile filename="e000034a.au" len="160627" min="-0.439842" max="0.485654" rms="0.100834"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="50 Cent - Candy Shop ft. Olivia" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1342968">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000ecb.au" len="235282" min="-0.456059" max="0.506051" rms="0.101678"/>
+				</waveblock>
+				<waveblock start="235282">
+					<simpleblockfile filename="e0000ed1.au" len="262144" min="-0.531707" max="0.578021" rms="0.106829"/>
+				</waveblock>
+				<waveblock start="497426">
+					<simpleblockfile filename="e0000411.au" len="262144" min="-0.481081" max="0.518299" rms="0.108056"/>
+				</waveblock>
+				<waveblock start="759570">
+					<simpleblockfile filename="e000095d.au" len="262144" min="-0.541902" max="0.519984" rms="0.116336"/>
+				</waveblock>
+				<waveblock start="1021714">
+					<simpleblockfile filename="e0000cb2.au" len="160627" min="-0.419744" max="0.480586" rms="0.099576"/>
+				</waveblock>
+				<waveblock start="1182341">
+					<simpleblockfile filename="e0000169.au" len="160627" min="-0.439392" max="0.503765" rms="0.103381"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
