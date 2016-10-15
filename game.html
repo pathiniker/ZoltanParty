@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Mario Party</title>
+    <title>Zoltan Party - Games</title>
 
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
@@ -12,176 +12,171 @@
 </head>
 
 <body id="game-page">
-    <!-- <h1>Mario Party</h1> -->
-    <h2><img src="images/sword.png" height="100px">Mini Games<img src="images/shield.png" height="100px"></h2>
 
-<audio src="audio/battle.mp3" autoplay></audio>
-    <div><a href="index.html" height="100px"><img src="images/backbutton.png" height="100px"></a></div>
+  <audio src="audio/battle.mp3" autoplay></audio>
+
+  <div class="div" ><a href="index.html" height="100px"><img id="backbutton" src="images/backward.png" height="70px"></a></div>
+
+  <h2><img src="images/sword.png" height="100px">Mini Games<img src="images/shield.png" height="100px"></h2>
 
 
-<div>
-<h3>Select game</h3>
+<div class="game-section">
+<!-- <h3>Select game</h3> -->
+
 <table id="game-select">
-
     <th><button class="game-button" id="select-type">Game Type</button></th>
-    <!-- <th><button class="game-button" id="select-ffa">Free For All</button></th>
-    <th><button class="game-button" id="select-twov">Two VS Two </button></th> -->
-    <th><button class="game-button" id="select-team">Team Select</button></th>
+    <th><button class="game-button" id="select-team">Select Teams</button></th>
 
-<tr><td>
-<table class="game-type">
+<tr>
+  <td>
+    <table class="game-type">
       <tr><td><button class="game-button" id="select-ffa">Free For All</button></td></tr>
       <tr><td><button class="game-button" id="select-twov">Two VS Two </button></td></tr>
-</table></td>
-<td>
-        <table>
-          <tr>
-            <th>Team 1</th>
-            <th>&emsp;</th>
-            <th>Team 2</th>
-          </tr>
-        </table>
-        <table class="teams">
+    </table>
+  </td>
 
-        <tr>
-          <td>P1 &amp; P2</td>
-          <td>VS</td>
-          <td>P3 &amp; P4</td>
-        </tr>
-        <tr>
-          <td>P1 &amp; P3</td>
-          <td>VS</td>
-          <td>P2 &amp; P4</td>
-        </tr>
-        <tr>
-          <td>P1 &amp; P4</td>
-          <td>VS</td>
-          <td>P2 &amp; P3</td>
-        </tr>
-      </table></td>
+  <td>
+    <table>
+      <tr>
+        <th>Team 1</th>
+        <th>&emsp;</th>
+        <th>Team 2</th>
+      </tr>
+    </table>
+
+    <table class="teams">
+      <tr>
+        <td>P1 &amp; P2</td>
+        <td>VS</td>
+        <td>P3 &amp; P4</td>
+      </tr>
+      <tr>
+        <td>P1 &amp; P3</td>
+        <td>VS</td>
+        <td>P2 &amp; P4</td>
+      </tr>
+      <tr>
+        <td>P1 &amp; P4</td>
+        <td>VS</td>
+        <td>P2 &amp; P3</td>
+      </tr>
+    </table>
+  </td>
 </tr>
-
 </table>
 
-<!-- <table class="game-type">
-<th><button class="game-button" id="select-type">Game Type</button></th>
-<tr><td>Free For All</td></tr>
-<tr><td>2 vs 2</td></tr>
-</table> -->
-
-<br><br>
-<h3>Battle Game</h3>
-<table>
-  <tr>
-    <th><button class="game-button" id="ante">Ante Cost</button></th>
-  </tr>
-  <tr>
-    <td><span id="ante-result"></span></td>
-  </tr>
-</table>
 </div>
 
 
+<!-- <h3>Battle Game</h3>
+  <table>
+    <tr>
+      <th><button class="game-button" id="ante">Ante Cost</button></th>
+    </tr>
+    <tr>
+      <td><span id="ante-result"></span></td>
+    </tr>
+  </table> -->
 
 
+<div class="game-section">
+  <!-- <h3 class="game-header">[1 ] Free For All</h3> -->
+
+    <table class="auto">
+      <tr>
+        <th class="game-header">Free For All</th>
+      </tr>
+    </table>
+
+    <table class="free">
+      <tr id='0'>
+        <td>F-Zero GX</td>
+      </tr>
+      <tr id='1'>
+        <td>Mario Golf: Toadstool Tour</td>
+      </tr>
+      <tr id='2'>
+        <td>Medal of Honor: European Assault</td>
+      </tr>
+      <tr id='3'>
+        <td>Mario Kart 64</td>
+      </tr>
+      <tr id='4'>
+        <td>Super Smash Bros 64</td>
+      </tr>
+      <tr id='5'>
+        <td>Super Monkey Ball 2</td>
+      </tr>
+      <tr id='6'>
+        <td>Robot Roller-Derby Disco Dodgeball</td>
+      </tr>
+      <tr id='7'>
+        <td>Bomberman Generation</td>
+      </tr>
+      <tr id='8'>
+        <td>Super Monkey Ball 2</td>
+      </tr>
+      <tr id='9'>
+        <td>Robot Roller-Derby Disco Dodgeball</td>
+      </tr>
+      <tr id='10'>
+        <td>Mario Kart: Double Dash</td>
+      </tr>
+      <tr id='11'>
+        <td>Super Smash Bros Melee</td>
+      </tr>
+    </table>
+  </div>
 
 
-<div class="div">
-<h3>[1 ] Free For All</h3>
-<table class="auto">
-  <tr>
-    <th>Game</th>
-  </tr>
-</table>
-<table class="free">
+<div class="game-section">
+  <!-- <h3>[2] 2v2</h3> -->
 
-  <tr id='0'>
-    <td>F-Zero GX</td>
-  </tr>
-  <tr id='1'>
-    <td>Mario Golf: Toadstool Tour</td>
-  </tr>
-  <tr id='2'>
-    <td>Medal of Honor: European Assault</td>
-  </tr>
-  <tr id='3'>
-    <td>Mario Kart 64</td>
-  </tr>
-  <tr id='4'>
-    <td>Super Smash Bros 64</td>
-  </tr>
-  <tr id='5'>
-    <td>Super Monkey Ball 2</td>
-  </tr>
-  <tr id='6'>
-    <td>Robot Roller-Derby Disco Dodgeball</td>
-  </tr>
-  <tr id='7'>
-    <td>Bomberman Generation</td>
-  </tr>
-  <tr id='8'>
-    <td>Super Monkey Ball 2</td>
-  </tr>
-  <tr id='9'>
-    <td>Robot Roller-Derby Disco Dodgeball</td>
-  </tr>
-  <tr id='10'>
-    <td>Mario Kart: Double Dash</td>
-  </tr>
-  <tr id='11'>
-    <td>Super Smash Bros Melee</td>
-  </tr>
-</table>
+    <table class="auto">
+      <tr>
+        <th class="game-header">2 v 2</th>
+      </tr>
+    </table>
+
+    <table class="twov">
+      <tr>
+        <td>Super Smash Bros Melee</td>
+      </tr>
+      <tr>
+        <td>NBA Street Vol. 2</td>
+      </tr>
+      <tr>
+        <td>Mario Power Tennis</td>
+      </tr>
+      <tr>
+        <td>Super Mario Strikers</td>
+      </tr>
+      <tr>
+        <td>NHL Hitz 2003</td>
+      </tr>
+      <tr>
+        <td>Super Smash Bros Melee</td>
+      </tr>
+      <tr>
+        <td>Mario Superstar Baseball</td>
+      </tr>
+      <tr>
+        <td>Robot Roller-Derby Disco Dodgeball</td>
+      </tr>
+      <tr>
+        <td>NFL Blitz</td>
+      </tr>
+      <tr>
+        <td>Rocket League</td>
+      </tr>
+      <tr>
+        <td>007 Nightfire</td>
+      </tr>
+      <tr>
+        <td>Rocket League</td>
+      </tr>
+    </table>
 </div>
-
-<div class="div">
-<h3>[2] 2v2</h3>
-<table class="auto">
-  <tr>
-    <th>Game</th>
-  </tr>
-</table>
-<table class="twov">
-
-  <tr>
-    <td>Super Smash Bros Melee</td>
-  </tr>
-  <tr>
-    <td>NBA Street Vol. 2</td>
-  </tr>
-  <tr>
-    <td>Mario Power Tennis</td>
-  </tr>
-  <tr>
-    <td>Super Mario Strikers</td>
-  </tr>
-  <tr>
-    <td>NHL Hitz 2003</td>
-  </tr>
-  <tr>
-    <td>Super Smash Bros Melee</td>
-  </tr>
-  <tr>
-    <td>Mario Superstar Baseball</td>
-  </tr>
-  <tr>
-    <td>Robot Roller-Derby Disco Dodgeball</td>
-  </tr>
-  <tr>
-    <td>NFL Blitz</td>
-  </tr>
-  <tr>
-    <td>Rocket League</td>
-  </tr>
-  <tr>
-    <td>007 Nightfire</td>
-  </tr>
-  <tr>
-    <td>Rocket League</td>
-  </tr>
-</table>
-</div>
-
 
 
 

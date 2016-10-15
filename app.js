@@ -1,11 +1,7 @@
 
 $(document).ready(function() {
 
-
-
-
-
-        //dice roll
+      //dice roll
 
         $('#roll').click(function() {
             var diceRoll = (randomNumber(1, 11));
@@ -30,31 +26,6 @@ $(document).ready(function() {
 
         }); //end #game
 
-        //two dice roll
-        $('#game-type').click(function() {
-            var oneTwo = (randomNumber(1, 3));
-
-            function randomNumber(min, max) {
-                return Math.floor(Math.random() * (max - min) + min);
-            }
-
-            $('#type-result').text(oneTwo.toFixed());
-
-        }); //end #game
-
-
-
-//team select
-        $('#team-select').click(function() {
-            var threeRoll = (randomNumber(1, 4));
-
-            function randomNumber(min, max) {
-                return Math.floor(Math.random() * (max - min) + min);
-            }
-
-            $('#team-result').text(threeRoll.toFixed());
-
-          }); ///end team select
 
           //green roll
 
@@ -137,7 +108,7 @@ for (var i = 0; i < 3; i++) {
 
 
 
-// CASINO IMAGE TRIAL
+// CASINO SLOT MACHINE
   var playCount = 0;
   var jackpot = 3;
   var payout = 0;
@@ -146,15 +117,14 @@ for (var i = 0; i < 3; i++) {
   var timesRun = 0;
   var lowWin = 1;
 
-
 //insert coin (reset)
 $('#reset').click(function() {
   if (playCount >= 1) {
     alert("You've still got spins!");
     // jackpot--;
-    payout++;
-    playCount -=3;
-    totalPlays--;
+    // payout++;
+    // playCount -=3;
+    // totalPlays--;
   } else if (playCount == 0) {
   jackpot++;
   payout--;
@@ -280,6 +250,450 @@ $('#spin').click(function() {
 
 /// end CASINO
 
+
+// counter page
+
+// Player One
+var redOne = 0;
+var greenOne = 0;
+var miniOne = 0;
+var candyOne = 0;
+var coinOne = 0;
+var starOne = 0;
+
+$('#red-one').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            redOne++;
+            $('#red-one').text(redOne);
+            break;
+        case 2:
+            redOne--;
+            $('#red-one').text(redOne);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+$('#green-one').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            greenOne++;
+            $('#green-one').text(greenOne);
+            break;
+        case 2:
+            greenOne--;
+            $('#green-one').text(greenOne);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+$('#mini-one').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            miniOne++;
+            $('#mini-one').text(miniOne);
+            break;
+        case 2:
+            miniOne--;
+            $('#mini-one').text(miniOne);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+$('#candy-one').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            candyOne++;
+            $('#candy-one').text(candyOne);
+            break;
+        case 2:
+            candyOne--;
+            $('#candy-one').text(candyOne);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+$('#coin-one').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            coinOne++;
+            $('#coin-one').text(coinOne);
+            break;
+        case 2:
+            coinOne--;
+            $('#coin-one').text(coinOne);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+$('#star-one').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            starOne++;
+            $('#star-one').text(starOne);
+            break;
+        case 2:
+            starOne--;
+            $('#star-one').text(starOne);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+}); // end player one
+
+// Player Two
+var redTwo = 0;
+var greenTwo = 0;
+var miniTwo = 0;
+var candyTwo = 0;
+var coinTwo = 0;
+var starTwo = 0;
+
+$('#red-two').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            redTwo++;
+            $('#red-two').text(redTwo);
+            break;
+        case 2:
+            redTwo--;
+            $('#red-two').text(redTwo);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+$('#green-two').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            greenTwo++;
+            $('#green-two').text(greenTwo);
+            break;
+        case 2:
+            greenTwo--;
+            $('#green-two').text(greenTwo);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+$('#mini-two').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            miniTwo++;
+            $('#mini-two').text(miniTwo);
+            break;
+        case 2:
+            miniTwo--;
+            $('#mini-two').text(miniTwo);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+$('#candy-two').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            candyTwo++;
+            $('#candy-two').text(candyTwo);
+            break;
+        case 2:
+            candyTwo--;
+            $('#candy-two').text(candyTwo);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+$('#coin-two').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            coinTwo++;
+            $('#coin-two').text(coinTwo);
+            break;
+        case 2:
+            coinTwo--;
+            $('#coin-two').text(coinTwo);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+$('#star-two').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            starTwo++;
+            $('#star-two').text(starTwo);
+            break;
+        case 2:
+            starTwo--;
+            $('#star-two').text(starTwo);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+}); // end player two
+
+// Player Three
+var redThree = 0;
+var greenThree = 0;
+var miniThree = 0;
+var candyThree = 0;
+var coinThree = 0;
+var starThree = 0;
+
+$('#red-three').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            redThree++;
+            $('#red-three').text(redThree);
+            break;
+        case 2:
+            redThree--;
+            $('#red-three').text(redThree);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+$('#green-three').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            greenThree++;
+            $('#green-three').text(greenThree);
+            break;
+        case 2:
+            greenThree--;
+            $('#green-three').text(greenThree);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+$('#mini-three').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            miniThree++;
+            $('#mini-three').text(miniThree);
+            break;
+        case 2:
+            miniThree--;
+            $('#mini-three').text(miniThree);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+$('#candy-three').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            candyThree++;
+            $('#candy-three').text(candyThree);
+            break;
+        case 2:
+            candyThree--;
+            $('#candy-three').text(candyThree);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+$('#coin-three').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            coinThree++;
+            $('#coin-three').text(coinThree);
+            break;
+        case 2:
+            coinThree--;
+            $('#coin-three').text(coinThree);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+$('#star-three').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            starThree++;
+            $('#star-three').text(starThree);
+            break;
+        case 2:
+            starThree--;
+            $('#star-three').text(starThree);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+}); // end player three
+
+// Player Four
+var redFour = 0;
+var greenFour = 0;
+var miniFour = 0;
+var candyFour = 0;
+var coinFour = 0;
+var starFour = 0;
+
+$('#red-four').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            redFour++;
+            $('#red-four').text(redFour);
+            break;
+        case 2:
+            redFour--;
+            $('#red-four').text(redFour);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+$('#green-four').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            greenFour++;
+            $('#green-four').text(greenFour);
+            break;
+        case 2:
+            greenFour--;
+            $('#green-four').text(greenFour);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+$('#mini-four').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            miniFour++;
+            $('#mini-four').text(miniFour);
+            break;
+        case 2:
+            miniFour--;
+            $('#mini-four').text(miniFour);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+$('#candy-four').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            candyFour++;
+            $('#candy-four').text(candyFour);
+            break;
+        case 2:
+            candyFour--;
+            $('#candy-four').text(candyFour);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+$('#coin-four').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            coinFour++;
+            $('#coin-four').text(coinFour);
+            break;
+        case 2:
+            coinFour--;
+            $('#coin-four').text(coinFour);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+$('#star-four').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            starFour++;
+            $('#star-four').text(starFour);
+            break;
+        case 2:
+            starFour--;
+            $('#star-four').text(starFour);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+}); // end player four
+
+
+// turn counter
+var turnCount = 0;
+$('#turn-count').mousedown(function(event) {
+    switch (event.which) {
+        case 1:
+            turnCount++;
+            $('#turn-count').text(turnCount);
+            break;
+        case 2:
+            turnCount--;
+            $('#turn-count').text(turnCount);
+            break;
+        case 3:
+            break;
+        default:
+            alert('You have a strange Mouse!');
+    }
+});
+
+// end counter page
 
 
 
