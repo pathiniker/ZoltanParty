@@ -204,7 +204,7 @@ $('#spin').click(function() {
     if ((yahtzeeSpinOne == yahtzeeSpinTwo && yahtzeeSpinOne == yahtzeeSpinThree) && ((yahtzeeSpinOne + yahtzeeSpinTwo + yahtzeeSpinThree) == 3)) {
 
       // $('#yahtzeeWin').text('Winner!');
-      $('#yahtzeeWin').append('<audio src="audio/airhorn.mp3" autoplay></audio>')
+      $('#yahtzeeWin').append('<audio src="audio/airhorn.mp3" autoplay></audio>');
       playCount = 0;
       $('#slot-count').text(playCount);
       payout = payout + lowWin;
@@ -216,7 +216,7 @@ $('#spin').click(function() {
     } else if ((yahtzeeSpinOne == yahtzeeSpinTwo && yahtzeeSpinOne == yahtzeeSpinThree) && ((yahtzeeSpinOne + yahtzeeSpinTwo + yahtzeeSpinThree) == 6)) {
 
         // $('#yahtzeeWin').text('Winner!');
-        $('#yahtzeeWin').append('<audio src="audio/airhorn.mp3" autoplay></audio>')
+        $('#yahtzeeWin').append('<audio src="audio/airhorn.mp3" autoplay></audio>');
         playCount = 0;
         $('#slot-count').text(playCount);
         payout = payout + regWin;
@@ -226,7 +226,7 @@ $('#spin').click(function() {
         // $('.siren').fadeTo(fast, 0.5).;
 
     } else if ((yahtzeeSpinOne + yahtzeeSpinTwo + yahtzeeSpinThree) == 9) {
-      $('#yahtzeeWin').append('<audio src="audio/airhorn.mp3" autoplay></audio>')
+      $('#yahtzeeWin').append('<audio src="audio/cena.mp3" autoplay></audio>');
       playCount = 0;
       $('#slot-count').text(playCount);
       payout = payout + jackpot;
@@ -695,6 +695,61 @@ $('#turn-count').mousedown(function(event) {
 
 // end counter page
 
+// BOWSER PAGE
+var giveTake = 0;
+var quantity = 0;
+var trader = 0;
+
+$('#bowser-button').click(function() {
+
+$('.b-spin').empty();
+
+  var giveTake = (randomNumber(1, 3));
+  var quantity = (randomNumber(1, 4));
+  var trader = (randomNumber(1, 6));
+
+
+  function randomNumber(min, max) {
+      return Math.floor(Math.random() * (max - min) + min);
+  }
+
+
+  /// giveTake
+  if (giveTake == 1) {
+    $('#give-take').append('<img src="images/backward.png" height="50px">');
+  } else if (giveTake == 2) {
+    $('#give-take').append('<img src="images/forward.png" height="50px">');
+  };
+
+  /// quantity
+  if (quantity == 1){
+    $('#quantity').append('<img src="images/coin.png" height="40px">');
+  } else if (quantity == 2){
+    $('#quantity').append('<img src="images/coin.png" height="40px"><img src="images/coin.png" height="40px">');
+  } else if (quantity == 3){
+    $('#quantity').append('<img src="images/coin.png" height="40px"><img src="images/coin.png" height="40px"><img src="images/coin.png" height="40px">');
+  };
+
+  /// trader
+  if (trader == 1) {
+    $('#trader').text('P1');
+  } else if (trader == 2) {
+    $('#trader').text('P2');
+  } else if (trader == 3) {
+    $('#trader').text('P3');
+  } else if (trader == 4) {
+    $('#trader').text('P4');
+  } else if (trader == 5) {
+    $('#trader').append('<img src="http://orig11.deviantart.net/5a26/f/2016/081/2/c/bowser_head_smash_bros__series_icon_by_mrthatkidalex24-d9w2gbb.png" height="50px">');
+  };
+
+
+
+
+
+}); // end Bowser button
+
+// END BOWSER PAGE
 
 
     }) //end doc ready

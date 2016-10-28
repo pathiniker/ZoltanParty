@@ -137,7 +137,15 @@ th, td {
   background-position: center;
   background-repeat: repeat-x;
 }
-
+#bowser {
+  background-color: #b23030;
+  color: white;
+  height: 70px;
+  width: 250px;
+  border-radius: 20px;
+  font-size: 28px;
+  font-family: 'Mario';
+}
 
 
 /* COUNTER PAGE */
@@ -480,4 +488,47 @@ button:focus {
 }
 th {
   background-color: #d1d3d1;
+}
+
+/* Bowser Page */
+#bowser-page {
+  background-color: #701a1a;
+}
+#b-left {
+  width: 30%;
+  float: left;
+}
+#b-right {
+  width: 70%;
+  float: right;
+}
+#bowser-table {
+  margin: auto;
+  background: linear-gradient(gray, black);
+  padding: 50px;
+  border: 5px inset;
+
+}
+#bowser-table td{
+  width: 100px;
+  height: 150px;
+  color: red;
+  border: 10px inset;
+  background: linear-gradient(gray, white, gray);
+}
+
+#bowser-button {
+  margin-left: 170px;
+  width: 550px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  letter-spacing: 5px;
+  font-size: 20px;
+  font-family: 'Mario';
+  border: 3px outset;
+}
+.b-spin {
+  font-family: 'Mario';
+  font-size: 30px;
 }
